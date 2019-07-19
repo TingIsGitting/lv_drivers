@@ -18,10 +18,10 @@ extern "C" {
 #else
 #include "../../lv_drv_conf.h"
 #endif
-
+#define USE_MONITOR 1
 #if USE_MONITOR
 
-#include "lvgl/lvgl.h"
+#include "../../lvgl/lvgl.h"
 
 /*********************
  *      DEFINES
